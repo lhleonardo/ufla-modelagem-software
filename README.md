@@ -9,7 +9,7 @@ Neste repositório contém uma pequena CLI que é capaz de te dar boas vindas!
 Para executar essa CLI você deve executar no terminal: 
 
 ```bash
-npm run cli [seu nome aqui]
+npm run cli --name [seu nome aqui]
 ```
 
 ## Tecnologias

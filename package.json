@@ -4,9 +4,24 @@
   "description": "Repositório para atividade de modelagem de software.",
   "main": "index.js",
   "scripts": {
+    "cli": "yarn tsc && node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Leonardo Braz",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/figlet": "^1.5.4",
+    "@types/node": "^16.9.4",
+    "@types/yargs": "^17.0.2",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.2.0",
+    "figlet": "^1.5.2",
+    "path": "^0.12.7"
+  }
 }
